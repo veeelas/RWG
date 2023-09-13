@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.Left_menu a:hover{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.Left_menu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo, .Left_menu{
+    display: inline-block;
+    margin-right:100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Left_menu li{
+    display: inline-block;
+
+}
+
+header{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 20px;
+    position: sticky;
+}
+
+
+@media (max-width: 480px) {
+
+}
