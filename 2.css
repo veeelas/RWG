@@ -14,7 +14,7 @@ body {
     margin-right: 20px;
 }
 
-.logo, .Left_menu {
+.logo, .Left_menu, .languageUA, .languageEN{
     display: inline-block;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -22,6 +22,7 @@ body {
 .Left_menu li {
     display: inline-block;
 }
+
 
 header {
     display: flex;
@@ -36,10 +37,29 @@ header {
 }
 
 
+.languageUA button{
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    position: fixed;
+    right: 20px;
+    top: 45px;
+    z-index: 1; /
+}
+
+.languageEN button{
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    position: fixed;
+    right: 60px;
+    top: 45px;
+    z-index: 1;
+}
+
 .one {
     margin-top: 1000px;
     color: black;
-}
-
-@media (max-width: 480px) {
 }
