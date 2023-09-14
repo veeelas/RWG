@@ -1,6 +1,8 @@
 body {
     background-color: rgb(255, 255, 255);
     color: white; 
+    margin: 0;
+    padding: 0;
 }
 
 .header_menu{
@@ -11,6 +13,7 @@ body {
 .logo a{
     color: white;
     text-decoration: none;
+    
 }
 
 .Left_menu :hover {
@@ -19,14 +22,20 @@ body {
 
 .Left_menu a {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
-.logo, .Left_menu, .languageUA, .languageEN{
-    display: inline-block;
+.logo{
     font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    margin-right: 800px;
+}
+
+.Left_menu, .languageUA, .languageEN{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Left_menu li {
@@ -39,7 +48,7 @@ header {
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: -20px;
+    top: -20px; 
     left: 0;
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -75,4 +84,17 @@ header {
 .one {
     margin-top: 1000px;
     color: black;
+}
+
+
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
