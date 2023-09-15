@@ -82,17 +82,13 @@ header {
     color: rgba(255, 255, 255, 0.562);
 }
 
-.one {
-    margin-top: 1000px;
-    color: black;
-}
-
 
 
 footer{
     background-color: black;
     position: absolute;
     width: 100%;
+    margin-top: 1900px;
 }
 
 .compa hr{
@@ -173,7 +169,7 @@ footer{
     background: url("png/RWG.png");
     background-size: cover;
     object-fit: cover;
-    height: 900px;
+    height: 970px;
     width: 100%;
     margin-top: -5px;
     display: block;
@@ -200,11 +196,95 @@ footer{
 }
 
 .back{
-    height: 101%;
+    height: 107%;
     background-color: rgba(0, 0, 0, 0.856);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 0;
+}
+
+
+.About{
+    width: 100%;
+    position: absolute;
+    top: 1020px;
+    left: 0;
+    background-color: #121212;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.About h1{
+    margin-left: 65px;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.About p{
+    margin-left: 65px;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.port{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 2000px;
+    left: 0;
+    background-color: #121212;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.port h1{
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+}
+
+.card1 h1{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.card1{
+    position: relative;
+    top: -800px;
+    width: 506px;
+    height: 745px;
+    left: 475px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.card2 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 350px;
+    margin-left: -10px;
+    color: black;
+}
+
+.card2{
+    position: relative;
+    top: 70px;
+    width: 325px;
+    height: 470px;
+    background: #ffffff86;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.card2 img{
+    position: absolute;
+    width: 167px;
+    top: 20%;
+    left: 25%;
 }
