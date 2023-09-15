@@ -90,11 +90,80 @@ header {
 
 footer{
     background-color: black;
+    position: absolute;
+    width: 100%;
+}
+
+.compa hr{
+    width: 30%;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.compa{
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 20px;
-    left: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.Unity{
+    width: 100px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.Unreal{
+    width: 100px;
+    margin-left: 200px;
+    margin-top: -55px;
+}
+
+.contac, .contacUA{
+    display: flex;
+    flex-direction: row; /* Змінюємо напрямок на горизонтальний */
+    flex-wrap: wrap; /* Дозволяємо рядкам переносити наступні елементи */
+    justify-content: center; /* Центруємо в горизонтальному напрямку */
+    align-items: center; /* Центруємо в вертикальному напрямку */
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contac{
+    width: 477px;
+}
+
+.contacUA{
+    width: 530px;
+}
+
+.contac a, .contacUA a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 20px; /* Задаємо відступ між елементами */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.contac a:hover, .contacUA a:hover{
+    color: rgba(255, 255, 255, 0.473);
+
+}
+
+.prav h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 800px;
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.prav{
+    margin-top: -20px;
+    margin-left: 10px;
 }
