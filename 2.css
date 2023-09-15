@@ -52,6 +52,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgb(0, 0, 0);
+    z-index: 4;
 }
 
 
@@ -124,28 +125,28 @@ footer{
 
 .contac, .contacUA{
     display: flex;
-    flex-direction: row; /* Змінюємо напрямок на горизонтальний */
-    flex-wrap: wrap; /* Дозволяємо рядкам переносити наступні елементи */
-    justify-content: center; /* Центруємо в горизонтальному напрямку */
-    align-items: center; /* Центруємо в вертикальному напрямку */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
     height: 130px;
     margin: 0 auto;
     text-align: center;
 }
 
 .contac{
-    width: 477px;
+    width: 500px;
 }
 
 .contacUA{
-    width: 530px;
+    width: 570px;
 }
 
 .contac a, .contacUA a {
     color: white;
     font-size: 23px;
     text-decoration: none;
-    margin: 20px; /* Задаємо відступ між елементами */
+    margin: 20px; 
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -166,4 +167,44 @@ footer{
 .prav{
     margin-top: -20px;
     margin-left: 10px;
+}
+
+.rwgp{
+    background: url("png/RWG.png");
+    background-size: cover;
+    object-fit: cover;
+    height: 900px;
+    width: 100%;
+    margin-top: -5px;
+    display: block;
+    
+    
+}
+
+.rwh1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 100px;
+    top: 300px;
+    opacity: 0;
+    animation: ani 3s forwards;
+    
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.back{
+    height: 101%;
+    background-color: rgba(0, 0, 0, 0.856);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
 }
