@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+.body2{
+    background-color: #121212;
+}
+
 .header_menu{
     position: relative;
     top: 8px;
@@ -287,4 +291,213 @@ footer{
     width: 167px;
     top: 20%;
     left: 25%;
+}
+
+.card3 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -170px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.card3 button{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -64px;
+    left: 234px;
+    justify-content: center; 
+    transition: 0.3s;
+}
+
+.card3{
+    position: absolute;
+    top: 200px;
+    width: 370px;
+    height: 165px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+.card4 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -170px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.card4 button{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -64px;
+    left: 234px;
+    justify-content: center; 
+    transition: 0.3s;
+}
+
+
+.card4{
+    position: absolute;
+    top: 500px;
+    width: 370px;
+    height: 165px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+
+.card5 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -170px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.card5 button{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -64px;
+    left: 234px;
+    justify-content: center; 
+    transition: 0.3s;
+}
+
+.card5{
+    position: absolute;
+    top: 800px;
+    width: 370px;
+    height: 165px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+
+
+.card6 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -170px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.card6 button{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -64px;
+    left: 234px;
+    justify-content: center; 
+    transition: 0.3s;
+}
+
+.card6{
+    position: absolute;
+    top: 1100px;
+    width: 370px;
+    height: 165px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+
+
+.card7 h1{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -170px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.card7 button{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -64px;
+    left: 234px;
+    justify-content: center; 
+    transition: 0.3s;
+}
+
+
+.card7{
+    position: absolute;
+    top: 1400px;
+    width: 370px;
+    height: 165px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+
+.cardAll{
+    margin-left: 100px;
+    position: absolute;
+    height: 180%;
+}
+
+.pc1{
+    position: relative;
+    left: 1200px;
+    top: 200px;
+    color: white;
+}
+
+.pc2{
+    position: relative;
+    left: 1200px;
+    top: 520px;
+    color: white;
+}
+
+.pc3{
+    position: relative;
+    left: 1200px;
+    top: 800px;
+    color: white;
+}
+
+.pc4{
+    position: relative;
+    left: 1200px;
+    top: 1050px;
+    color: white;
+}
+
+.pc5{
+    position: relative;
+    left: 1200px;
+    top: 1300px;
+    color: white;
 }
