@@ -454,3 +454,21 @@ footer{
     top: 1300px;
     color: white;
 }
+
+.policyEN{
+    color: black;
+}
+
+.policyEN h1{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.policyEN p{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    
+}
